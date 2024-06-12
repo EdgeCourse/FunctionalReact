@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif; /* Choose a clear and easy-to-read font */
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  display: flex; /* Center the quiz on the page */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quiz-container { /* Container for the quiz */
+  background-color: #fff; /* White background for the quiz container */
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.question { /* Each question block */
+  margin-bottom: 20px;
+}
+
+.question p { /* Question text */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+label { /* Answer options */
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="radio"] { /* Radio button styling */
+  margin-right: 5px;
+}
+
+button { /* Next button */
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover { /* Hover effect for button */
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.score { /* Final score display */
+  font-size: 24px;
+  margin-top: 20px;
+}
